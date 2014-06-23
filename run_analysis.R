@@ -118,3 +118,5 @@ Tidy_Dt_set<-cbind(Subj_id,Activities,Data_set_mean_std)
 
 ## Second Tidy Data set
 Tidy_Dt_set2<-aggregate(Tidy_Dt_set[,3:88], list(Subject_id=Tidy_Dt_set$Subject_id, Perform_Activity=Tidy_Dt_set$perform_activity), mean, na.rm=TRUE)
+
+
